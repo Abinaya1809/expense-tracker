@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+.balance, .income-expense, form, ul {
+  margin: 20px auto;
+  width: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.money.plus {
+  color: green;
+}
+
+.money.minus {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+padding: 0;
+}
